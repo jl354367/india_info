@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+boto3
+pandas
+openpyxl
+pydantic
+python-dotenv
+pydantic-settings

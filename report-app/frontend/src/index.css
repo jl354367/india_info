@@ -1,0 +1,49 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  background: #f8f9fa;
+}
+
+h1, h2 {
+  color: #1a237e;
+}
+
+.filters {
+  display: flex;
+  gap: 1em;
+  margin: 1em 0;
+}
+
+.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.report-table th, .report-table td {
+  border: 1px solid #ddd;
+  padding: 0.5em 1em;
+}
+
+.report-table th {
+  background: #e3e6f3;
+}
+
+.report-table tr:hover {
+  background: #f1f3fa;
+}
+
+button {
+  background: #3949ab;
+  color: white;
+  border: none;
+  padding: 0.5em 1.2em;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5em;
+}
+
+button:disabled {
+  background: #b0bec5;
+  cursor: not-allowed;
+}
